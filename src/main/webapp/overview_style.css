@@ -1,0 +1,87 @@
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange_background{
+    background-color: #ff6100;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.space_to_top{
+    padding-top:20px;
+}
+
+.checked {
+    color: orange;
+}
+
+.fa-star {
+    font-size: 36px;
+}
+.card-img-top{
+    width: 100%;
+    height: 30%;
+}
+.zoom-image{
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+}
+.zoom-image:hover{
+    transform: scale(2);
+}
+
+.carousel-item img {
+    width: 500px;
+    height: 500px;
+}
+.img-thumbnail{
+    width: 150px;
+    height: 150px;
+}
+.font{
+    font-size: large;
+}
+.rating {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .rating > span {
+    color: #ddd;
+    margin: 0.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .rating > span:hover,
+  .rating > span:hover ~ span {
+    color: #ff9f1c;
+  }
+.filled {
+    color: gold; /* 填充颜色为金色 */
+    font-size: 24px; /* 字体大小为 24px */
+}
+.price-container {
+    text-align: right;
+}
+
+.price, .tax {
+    text-align: right;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.tax {
+    text-align: right;
+    font-style: italic;
+}
