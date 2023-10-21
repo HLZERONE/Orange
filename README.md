@@ -1,4 +1,3 @@
-# TEAM 21
 ## Members: Lu He, Tongxi Zhou, Zhaoteng Li
 
 ## How to set up environment:
